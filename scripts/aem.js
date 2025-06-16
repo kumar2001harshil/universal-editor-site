@@ -114,6 +114,7 @@ function sampleRUM(checkpoint, data) {
         };
         if (!window.hlx.RUM_MANUAL_ENHANCE) {
           sampleRUM.enhance();
+          console.log("test");
         }
       }
     }
